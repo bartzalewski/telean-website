@@ -13,6 +13,8 @@ This is a project of a website for my employer during the apprenticeships, coded
 - Google Maps API
 - Font Awesome Icons
 - Lighthouse
+- ESLint
+- Prettier
 
 ### Check out my website!
 
