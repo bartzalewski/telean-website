@@ -18,4 +18,4 @@ This is a project of a website for my employer during the apprenticeships, coded
 
 ### Check out my website!
 
-http://reveur.dev
+http://bartzalewski.com
