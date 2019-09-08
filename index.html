@@ -15,7 +15,7 @@
 		/>
 		<meta name="author" content="Bartosz Zalewski" />
 		<link rel="canonical" href="" />
-		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/style1.css" />
 		<link rel="icon" type="image/ico" href="images/favicon.ico" />
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 		<script src="https://kit.fontawesome.com/f329a67f82.js"></script>
@@ -24,13 +24,14 @@
 		</title>
 	</head>
 	<body>
-
 		<div id="sidenav" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>></a>
-			<a href="#section-home" class="navbar__nav__home active">STRONA GŁÓWNA</a>
-			<a href="#section-about" class="navbar__nav__about">O MNIE</a>
-			<a href="#section-services" class="navbar__nav__services">USŁUGI</a>
-			<a href="#section-contact" class="navbar__nav__contact">KONTAKT</a>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+				><i class="fas fa-times"></i
+			></a>
+			<a href="#section-home" class="navbar__home active">STRONA GŁÓWNA</a>
+			<a href="#section-about" class="navbar__about">O MNIE</a>
+			<a href="#section-services" class="navbar__services">USŁUGI</a>
+			<a href="#section-contact" class="navbar__contact">KONTAKT</a>
 		</div>
 
 		<nav class="navbar">
@@ -40,53 +41,52 @@
 					<i class="fas fa-bars sidenav__btn" onclick="openNav()"></i>
 				</div>
 				<div class="navbar__nav">
-					<a href="#section-home" class="navbar__nav__home active"
-						>STRONA GŁÓWNA</a
-					>
-					<a href="#section-about" class="navbar__nav__about">O MNIE</a>
-					<a href="#section-services" class="navbar__nav__services">USŁUGI</a>
-					<a href="#section-contact" class="navbar__nav__contact">KONTAKT</a>
+					<a href="#section-home" class="navbar__home active">STRONA GŁÓWNA</a>
+					<a href="#section-about" class="navbar__about">O MNIE</a>
+					<a href="#section-services" class="navbar__services">USŁUGI</a>
+					<a href="#section-contact" class="navbar__contact">KONTAKT</a>
 				</div>
 			</div>
 		</nav>
 
-		<section id="section-home" class="hero parallax" data-aos="zoom-in">
+		<section id="section-home" class="hero parallax">
 			<div class="container">
 				<div class="hero__content">
 					<h1
 						id="changing"
-						class="hero__content__txt"
+						class="hero__txt"
 						data-aos="fade-up"
 						data-aos-duration="1000"
 					>
 						SPRZĘT I CENTRALE TELEFONICZNE
 					</h1>
-					<h3
-						class="hero__content__name"
-						data-aos="fade-up"
-						data-aos-duration="1200"
-					>
+					<h3 class="hero__name" data-aos="fade-up" data-aos-duration="1200">
 						Telean Andrzej Mróz
 					</h3>
 					<div data-aos="fade-up" data-aos-duration="1400">
-						<a class="hero__content__btn" href="#section-about">WIĘCEJ</a>
+						<a class="hero__btn" href="#section-about">WIĘCEJ</a>
 					</div>
 				</div>
 			</div>
 		</section>
 
 		<section id="section-about" class="about">
-			<div class="container" data-aos="fade-up" data-aos-duration="500">
+			<div
+				class="container"
+				data-aos="fade-up"
+				data-aos-duration="500"
+				data-aos-once="true"
+			>
 				<div class="about__content">
-					<div class="about__content__wrapper">
+					<div class="about__wrapper">
 						<img src="./images/logo.jpg" alt="logo telean" class="logo" />
-						<h3 class="about__content__title">O MNIE</h3>
-						<hr class="about__content__hr--small" />
-						<p class="about__content__desc--short">
+						<h3 class="about__title">O MNIE</h3>
+						<hr class="hr--small about__hr--small" />
+						<p class="about__desc--short">
 							Zajmuję się usługami telekomunikacyjnymi w zakresie montażu i
 							konserwacji central telefonicznych i alarmowych.
 						</p>
-						<p class="about__content__desc--long">
+						<p class="about__desc--long">
 							Firma "Telean" powstała w 1997 roku i do tej pory świadczy usługi
 							na najwyższym poziomie. Od samego początku wykorzystujemy
 							urządzenia tylko od najlepszych producentów, takich jak Slican,
@@ -112,35 +112,44 @@
 
 		<section id="section-services" class="services">
 			<div class="container">
-				<h3 class="services__title" data-aos="fade-up" data-aos-duration="500">
+				<h3
+					class="services__title"
+					data-aos="fade-up"
+					data-aos-duration="500"
+					data-aos-once="true"
+				>
 					USŁUGI
 				</h3>
 				<h5
 					class="services__title--small"
 					data-aos="fade-up"
 					data-aos-duration="500"
+					data-aos-once="true"
 				>
 					Wszystkie świadczone przeze mnie usługi.
 				</h5>
 				<hr
-					class="services__hr--small"
+					class="services__hr--small hr--small"
 					data-aos="fade-up"
+					data-aos-once="true"
 					data-aos-duration="500"
 				/>
 				<div class="services__content">
 					<div
-						class="services__content__box"
+						class="services__box"
 						data-aos="fade-up"
 						data-aos-duration="700"
+						data-aos-once="true"
 					>
 						<i class="fas fa-satellite-dish"></i>
 						<strong>Instalacja satelitarna</strong>
 						<p>Ustawianie i montaż anten satelitarnych.</p>
 					</div>
 					<div
-						class="services__content__box"
+						class="services__box"
 						data-aos="fade-up"
 						data-aos-duration="900"
+						data-aos-once="true"
 					>
 						<i class="fas fa-tty"></i>
 						<strong>Centrale telefoniczne</strong>
@@ -151,9 +160,10 @@
 						</p>
 					</div>
 					<div
-						class="services__content__box"
+						class="services__box"
 						data-aos="fade-up"
 						data-aos-duration="1100"
+						data-aos-once="true"
 					>
 						<i class="fas fa-video"></i>
 						<strong>Telewizja przemysłowa</strong>
@@ -165,27 +175,30 @@
 				</div>
 				<div class="services__content">
 					<div
-						class="services__content__box"
+						class="services__box"
 						data-aos="fade-up"
 						data-aos-duration="1300"
+						data-aos-once="true"
 					>
 						<i class="fas fa-fax"></i>
 						<strong>Dystrybucja telefonów i faksów</strong>
 						<p>Telefony i faksy najwyższej jakości.</p>
 					</div>
 					<div
-						class="services__content__box"
+						class="services__box"
 						data-aos="fade-up"
 						data-aos-duration="1500"
+						data-aos-once="true"
 					>
 						<i class="fas fa-phone-volume"></i>
 						<strong>Sprzedaż usług telekom.</strong>
 						<p>Usługi telekomunikacyjne operatorów VoIP.</p>
 					</div>
 					<div
-						class="services__content__box"
+						class="services__box"
 						data-aos="fade-up"
 						data-aos-duration="1700"
+						data-aos-once="true"
 					>
 						<i class="fas fa-network-wired"></i>
 						<strong>Sieci teleinformatyczne</strong>
@@ -197,25 +210,33 @@
 
 		<section id="section-contact" class="contact">
 			<div class="container">
-				<h3 class="contact__title" data-aos="fade-up" data-aos-duration="500">
+				<h3
+					class="contact__title"
+					data-aos="fade-up"
+					data-aos-duration="500"
+					data-aos-once="true"
+				>
 					KONTAKT
 				</h3>
 				<h5
 					class="contact__title--small"
 					data-aos="fade-up"
 					data-aos-duration="500"
+					data-aos-once="true"
 				>
 					Skontaktuj się ze mną!
 				</h5>
 				<hr
-					class="contact__hr--small"
+					class="contact__hr--small hr--small"
 					data-aos="fade-up"
 					data-aos-duration="500"
+					data-aos-once="true"
 				/>
 				<div
 					class="contact__content"
 					data-aos="fade-up"
 					data-aos-duration="1000"
+					data-aos-once="true"
 				>
 					<strong>Adres</strong>
 					<p>Batalionów Chłopskich 12b, 57-200 Ząbkowice Śląskie</p>
@@ -238,14 +259,14 @@
 		<footer class="footer">
 			<div class="container">
 				<div class="footer__content">
-					<div class="footer__content__box box-1">
+					<div class="footer__box">
 						<strong>O mnie</strong>
 						<p>
 							Zajmuję się usługami telekomunikacyjnymi w zakresie montażu i
 							konserwacji central telefonicznych i alarmowych.
 						</p>
 					</div>
-					<div class="footer__content__box box-2">
+					<div class="footer__box">
 						<strong>Nawigacja</strong>
 						<ul>
 							<li><a href="#section-home">Strona główna</a></li>
@@ -254,7 +275,7 @@
 							<li><a href="#section-contact">Kontakt</a></li>
 						</ul>
 					</div>
-					<div class="footer__content__box box-3">
+					<div class="footer__box">
 						<strong>Partnerzy</strong>
 						<ul>
 							<li><a href="https://slican.pl/" target="_blank">Slican</a></li>
@@ -281,7 +302,6 @@
 
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<script src="js/index.js"></script>
-		
+		<script src="js/index1.js"></script>
 	</body>
 </html>

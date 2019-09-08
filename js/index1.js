@@ -26,35 +26,34 @@ $(document).scroll(function() {
 	}
 
 	if (scrl < 501) {
-		$('.navbar__nav__home').addClass('active');
+		$('.navbar__home').addClass('active');
 	} else {
-		$('.navbar__nav__home').removeClass('active');
+		$('.navbar__home').removeClass('active');
 	}
 
 	if (scrl > 500 && scrl < 1101) {
-		$('.navbar__nav__about').addClass('active');
+		$('.navbar__about').addClass('active');
 	} else {
-		$('.navbar__nav__about').removeClass('active');
+		$('.navbar__about').removeClass('active');
 	}
 
 	if (scrl > 1100 && scrl < 1800) {
-		$('.navbar__nav__services').addClass('active');
+		$('.navbar__services').addClass('active');
 	} else {
-		$('.navbar__nav__services').removeClass('active');
+		$('.navbar__services').removeClass('active');
 	}
 
 	if (scrl > 1800) {
-		$('.navbar__nav__contact').addClass('active');
+		$('.navbar__contact').addClass('active');
 	} else {
-		$('.navbar__nav__contact').removeClass('active');
+		$('.navbar__contact').removeClass('active');
 	}
 });
 
 // MOBILE NAV
-function openNav() {
+openNav = () => {
 	document.getElementById('sidenav').style.width = '250px';
-}
-
-function closeNav() {
+};
+closeNav = () => {
 	document.getElementById('sidenav').style.width = '0';
-}
+};
