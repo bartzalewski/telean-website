@@ -3,7 +3,7 @@
 This is a project of a website for my employer during the apprenticeships, coded from scratch by me.
 
 Link to the website:
-http://reveur.cf/telean/
+https://telean-website.herokuapp.com/
 
 ## What kind of technologies did I use?
 
