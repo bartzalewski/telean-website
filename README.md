@@ -5,6 +5,8 @@ This is a project of a website for my employer during the apprenticeships, coded
 Link to the website:
 https://telean-website.herokuapp.com/
 
+<img alt="screenshot" src="https://i.imgur.com/cob8Jow.jpg">
+
 ## What kind of technologies did I use?
 
 - SCSS/SASS
